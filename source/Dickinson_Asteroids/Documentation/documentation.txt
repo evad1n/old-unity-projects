@@ -1,0 +1,58 @@
+Will Dickinson
+Section 04
+
+Project Asteroids
+
+
+Description
+In this project we recreated the classic Asteroids game (http://www.freeasteroids.org/) in Unity from scratch.
+
+
+User Responsibilities
+The user can used either the WASD or arrow keys to control their ship. The up arrow or W key accelerates the vehicle and the arrow keys (A and D) rotate the vehicle. 
+The space bar is used to shoot bullets and the down arrow or S key activates Marinara Madness (a power up). The user must destroy as many asteroids as possible. The user only has 3 lives which will be depleted
+upon contact with an asteroid.
+
+
+Above and Beyond
+
+Ship invulnerability (blinking and green) when destroyed
+
+Added third level asteroids (100 points for destruction)
+
+Italian themed assets and such
+
+Restart/Quit functionality
+
+Added music and sound effects for asteroid destruction
+
+Added particle effects for asteroid destruction
+
+Added power up MARINARA MADNESS that shoots tomato sauce like a flamethrower (with power up bar)
+
+
+
+
+Known Issues
+There are error messages that appear that most likely have something
+
+Notes
+I am using the grace period for this project
+
+
+Sources
+Images
+pizza slice - http://www.dandbpizza.com/img/PizzaSliceNext.png
+meatball1 - https://lh6.ggpht.com/ISGeGaE-HYuTQ0qLxC10hmFKI0rTc_ZiTU8OYoqpt0_q7D3fKoW6tzllA-_wNi9mKPM=w300
+meatball2 - http://www.honolulumagazine.com/images/2014/Sept14/meter_meatball.png
+meatball3 - http://repoblue.com/meatballsandbrews/assets/mb_01.png
+breadstick - http://www.signaturebreads.com/assets/images/breads/22294.png
+
+Particle Effects
+tomato splat - https://farm4.static.flickr.com/3748/33413344156_8a071f8621_b.jpg
+
+Sounds
+main music theme - Cars 2 - https://www.youtube.com/watch?v=1b-s0UTTWGU
+meatball splat sound - https://www.youtube.com/watch?v=vL4jNHlEsuU
+
+

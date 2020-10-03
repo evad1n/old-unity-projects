@@ -1,0 +1,35 @@
+Fish Tank
+Will Dickinson
+Section 04
+Description of World:
+My environment is a fish tank that contains crabs, clownfish, and sharks. The owners accidentally spilled some oil 
+in a part of the tank too, so the specimens might have to swim through it.
+World Exploration:
+There are 8 different cameras in the environment. One overview camera from the top, four cameras for each cardinal direction, 
+and 3 cameras that follow the 3 different organisms.
+
+Steering Behavior Description
+Flocking:
+The flockers are the clownfish and they just wander about the aquarium on their daily routine. However, when they see another 
+clownfish they want to say hi and form a flock.
+Path Following:
+The path following population is represented by the crabs. The crabs stick close to the ground as they can't swim, and they 
+shuffle about from point to point trying to comb the sand for food. The path was designed to go over a few hills to demonstrate 
+that they lock onto the terrain height.
+Flow Field Following:
+The sharks represent the flow field followers and the flow field is made using Perlin Noise to generate a continuous "flow". 
+The sharks circle around in search of prey, but they aren't allowed to eat the other fish because that is against the rules.
+Area(s) of Resistance:
+The area of resistance is an oil spill in the southeast corner of the aquarium. The oil is transparent though, so if you don't 
+have your debug goggles on, you won't be able to see it and will only be able to find it by the fish moving through it at a 
+slower rate.
+
+Resources
+Resources used to guide steering algorithms:
+Besides the in class lessons, I used the Nature of Code to guide the resistance code. My algorithm for drag is identical 
+to the one used in the Nature of Code. However, I used a script of my own so that I can place the oil spill in the form of a
+cube and it will adjust to the correct area.
+Asset Resources:
+Sand texture: https://naldzgraphics.net/wp-content/uploads/2014/07/20-smooth-beach-sand-seamless.jpg
+The fish tank was made using Unity primitives.
+All the models were made in Maya and textured using Paint.net by me.

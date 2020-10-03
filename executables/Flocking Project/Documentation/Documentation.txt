@@ -1,0 +1,28 @@
+Will Dickinson
+Section 04
+
+Project Flocking
+
+
+Description
+In this project we created a 3D environment with vehicles that exhibited flocking characteristics such as alignment, 
+cohesion, and separation.
+
+
+User Responsibilities
+The user can use the "C" key to switch camera views and use the up and down arrows to change flock distance.
+
+
+Above and Beyond
+
+Change flock distance
+
+Dynamic flocking
+
+
+Known Issues
+The debug lines and centers for each flock are drawn for every flocker and its local flock due to dynamic flocking
+
+
+Sources
+Everything made by me in Unity/Maya/Paint.net

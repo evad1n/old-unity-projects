@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/Treasure_Hunt.unity
+  isLoaded: 1
+  isActive: 1

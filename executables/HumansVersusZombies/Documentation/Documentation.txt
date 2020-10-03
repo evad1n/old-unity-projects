@@ -1,0 +1,48 @@
+Will Dickinson
+Section 04
+
+Project Humans Versus Zombies
+
+
+Description
+In this project we created a simulation similar to the game Humans versus Zombies. We used steering forces and vehicle
+behaviors to create a dynamic environment with obstacles and boundaries.
+
+
+User Responsibilities
+The user can use the GUI buttons to toggle debug view, spawn a human, switch camera views and restart the level.
+
+
+Above and Beyond
+
+Themed to be aquatic
+
+All models/animations made by me in Maya.
+
+Made the park 3D instead of on a plane (Made it look like a fish tank) and changed all code to correspond with a 3D environment.
+
+Added ambient music.
+
+Multiple camera modes for following humans and zombies.
+
+Restart/Quit functionality.
+
+Added death particles for humans.
+
+Added some stuff to make it more realistic:
+-Wander speed is slower than evasion/pursuit so there appears to be some haste
+-Humans are quicker and more nimble than zombies
+
+
+Known Issues
+The avoid obstacle method was giving me trouble in 2D and in 3D it wasn't working very well so I decided to just use the separate
+behavior but for the obstacles (fleeing from an obstacle when it is too close). Although it isn't "avoiding" it makes more sense as 
+my obstacles are mines so you'd want to run away from them.
+
+
+Sources
+
+Particle Effects
+blood cloud - https://farm4.static.flickr.com/3748/33413344156_8a071f8621_b.jpg
+
+Everything else made by me in Unity/Maya/Paint.net
